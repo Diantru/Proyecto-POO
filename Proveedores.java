@@ -1,3 +1,5 @@
-public class Tecnico{
-    
+public class Proveedor{
+    private descripcion;
+
+    public Proveedor(String
 }
