@@ -3,7 +3,7 @@ public class Proveedor extends Persona{
 
     public Proveedor(String id, String n, int tel, String desc){
         super(id, n, tel);
-        String 
+        this.descripcion = desc;
         
     }
 }
