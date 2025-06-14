@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Tecnico extends Persona {
     private Especialidades especialidad;
     private ArrayList<Orden> ordenes;
+    private static ArrayList<Tecnico> listaTecnicos = new ArrayList<>();
 
     public Tecnico(String id, String nombre, int telefono, Especialidades especialidad) {
         super(id, nombre, telefono);
