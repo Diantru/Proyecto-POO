@@ -11,6 +11,7 @@ public class Proveedor extends Persona{
     }
 
     public void AgregarProveedor(Proveedor p){
-        
+        listaProv.add(p);
     }
+
 }
