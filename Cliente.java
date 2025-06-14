@@ -1,6 +1,6 @@
 
 class Cliente extends Persona {
-  String direccion;
+  protected String direccion;
   TipoCliente tipoCliente;
 
   public Cliente(String  id, String nombre, int telefono, String direccion, tipoCliente tipoCliente){
@@ -9,7 +9,24 @@ class Cliente extends Persona {
     this.tipoCliente = tipoCliente;
   }
 
-  public String getIdentificacion(){
-      return identificacion;
+  public String getDireccion(){
+    return direccion;
   }
+
+  public String getDescripcion(){
+    return descripcion;
+  }
+
+  public String getTipo(){
+    return TipoCliente;
+  }
+
+  public void seleccionarOpcion(){
+    return ""
+  }
+
+  public void agregarCliente(){
+    return ""
+  }
+  
 }
