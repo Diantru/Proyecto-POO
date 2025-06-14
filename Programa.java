@@ -1,6 +1,6 @@
 public class Programa{
 
-  public static voud main(String[] args){
+  public static void main(String[] args){
 
   }
 }
