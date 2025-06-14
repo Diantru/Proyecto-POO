@@ -8,4 +8,9 @@ public class Proveedor extends Persona{
 
     public String getDescripcion(){
         return descripcion;
+    }
+
+    public void AgregarProveedor(Proveedor p){
+        
+    }
 }
