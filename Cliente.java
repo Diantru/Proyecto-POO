@@ -1,1 +1,4 @@
 
+class Cliente extends Parent {
+  
+}
