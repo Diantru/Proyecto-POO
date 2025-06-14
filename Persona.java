@@ -5,5 +5,7 @@ public class Persona{
 
   public Persona(String id, String n, int tel){
     this.identificacion = id;
-    this.nombre = n
+    this.nombre = n;
+    this.telefono = tel;
+  }
 }
