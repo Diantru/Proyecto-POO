@@ -8,4 +8,16 @@ public class Persona{
     this.nombre = n;
     this.telefono = tel;
   }
+
+  public String getIdentificacion(){
+      return identificacion;
+  }
+
+  public String getNombre(){
+      return nombre;
+  }
+
+  public int getTelefono(){
+      return telefono;
+  }
 }
