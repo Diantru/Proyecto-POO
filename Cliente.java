@@ -8,4 +8,8 @@ class Cliente extends Persona {
     this.direccion = direccion;
     this.tipoCliente = tipoCliente;
   }
+
+  public String getIdentificacion(){
+      return identificacion;
+  }
 }
