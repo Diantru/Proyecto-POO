@@ -1,7 +1,7 @@
 public class Persona{
-  private String identificacion;
-  private String nombre;
-  private int telefono;
+  protected String identificacion;
+  protected String nombre;
+  protected int telefono;
 
   public Persona(String id, String n, int tel){
     this.identificacion = id;
