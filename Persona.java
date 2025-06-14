@@ -3,6 +3,7 @@ public class Persona{
   private String nombre;
   private int telefono;
 
-  public Persona(String id, String, int tel){
-    this.identificacion = id
+  public Persona(String id, String n, int tel){
+    this.identificacion = id;
+    this.nombre = n
 }
