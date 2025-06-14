@@ -11,6 +11,7 @@ public class Tecnico extends Persona {
     }
 
     public void agregarTec(Tecnico tecnico) {
+        listaTecnicos.add(t);
         System.out.println("Técnico agregado");
     }
     
