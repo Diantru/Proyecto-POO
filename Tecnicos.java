@@ -10,6 +10,10 @@ public class Tecnico extends Persona {
         this.ordenes = new ArrayList<>();
     }
 
+    public void agregarTec(Tecnico tecnico) {
+        System.out.println("Técnico agregado");
+    }
+    
     public void registrarOrden(Orden nuevaOrden) {
         ordenes.add(nuevaOrden);
     }
