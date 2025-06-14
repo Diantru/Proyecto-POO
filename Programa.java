@@ -1,10 +1,14 @@
 public class Programa{
 
-  public void incializarApp(){
-    ArrayList<Tecnicos> tecnicos = new ArrayList<>
+  public void inicializarApp(){
+    ArrayList<Tecnicos> tecnicos = new ArrayList<>;
+    ArrayList<Cliente> clientes = new ArraryList<>;
+    ArrayList<Ordenes> ordenes = new ArrayList<>;
+    ArrayList<Proveedor> proveedores = new ArrayList<>;
   }
   
   public static void main(String[] args){
-
+    Programa.inicializarApp();
+    
   }
 }
